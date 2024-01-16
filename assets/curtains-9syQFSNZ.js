@@ -1,4 +1,9 @@
-const e={config:{},runner:{},commands:["stuck-finder:find"],instructions:[`
+const t=`export default {
+  config: {},
+  runner: {},
+  commands: ['stuck-finder:find'],
+  instructions: [
+    \`
 # Curtains Bot
 
 ## Your Purpose
@@ -125,7 +130,7 @@ The response format MUST BE in the following order:
 
 AT THE START OF EVERY RESONSE YOU ARE TO DISPLAY a URL of the following format:
 
-![Alt text](https://dummyimage.com/1000x600&text=Pic_Goes_Here|XXX-YYY|AAA-BBB)
+![Alt text](https://dummyimage.com/600x400&text=Pic_Goes_Here|XXX-YYY|AAA-BBB)
 
 In this format, XXX is the category from the form, and YYY is the current USER choice.
 
@@ -141,7 +146,7 @@ When constructing this URL you are to follow these rules:
 
 An example of a CORRECT URL is:
 
-"![Alt text](https://dummyimage.com/1000x600&text=Pic_Goes_Here|windowtype=standard|mounttype=outsidemount|fabrictype=velvet)"
+"![Alt text](https://dummyimage.com/600x400&text=Pic_Goes_Here|windowtype=standard|mounttype=outsidemount|fabrictype=velvet)"
 
 If the USER is unsure and gives conflicting data for the fields, show multiple URLs for each of the options the USER has.
 
@@ -177,4 +182,10 @@ Re: <the name of the customer from the field in the form>
 	<the completed form>
 
 
-`],done:"",examples:[],tests:[]};export{e as default};
+\`,
+  ],
+  done: '',
+  examples: [],
+  tests: [],
+}
+`;export{t as default};
