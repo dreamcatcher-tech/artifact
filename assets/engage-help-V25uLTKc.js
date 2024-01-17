@@ -1,0 +1,7 @@
+import{c as a,_ as r,D as o,a as p}from"./index-G_WXAw4L.js";const u=async t=>{const{default:n}=await a(Object.assign({"../helps/curtains.js":()=>r(()=>import("./curtains-Aw3dsg9n.js"),__vite__mapDeps([])),"../helps/goalie.js":()=>r(()=>import("./goalie-bzFvFttX.js"),__vite__mapDeps([])),"../helps/help.fixture.js":()=>r(()=>import("./help.fixture-efNBksXO.js"),__vite__mapDeps([]))}),`../helps/${t}.js`);return n},s=o("AI:engage-help"),l={engage:{description:"engage the help",type:"object",additionalProperties:!1,required:["help","text"],properties:{help:{description:"the path to the help",type:"string"},text:{description:"the text to pass to the help runner",type:"string"}}}},c={engage:async({help:t,text:n})=>{s("engage:",t);const e=await u(t);s(e),p(typeof e.runner=="string",`no runner: ${e.runner}`),s("found runner:",e.runner);const{default:i}=await a(Object.assign({"../runners/runner-chat.js":()=>r(()=>import("./runner-chat-Amx17i9u.js"),__vite__mapDeps([0,1,2,3,4]))}),`../runners/${e.runner}.js`);return await i({help:e,text:n})}};export{l as api,c as functions};
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = ["assets/runner-chat-Amx17i9u.js","assets/index-G_WXAw4L.js","assets/index-fD6NxQi6.css","assets/index-3Scg1s-s.js","assets/io-hooks-NnKsiyKm.js"]
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}
