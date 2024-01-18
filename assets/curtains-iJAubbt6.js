@@ -1,6 +1,6 @@
 const t=`export default {
   config: {},
-  runner: {},
+  runner: 'runner-chat',
   commands: ['stuck-finder:find'],
   instructions: [
     \`

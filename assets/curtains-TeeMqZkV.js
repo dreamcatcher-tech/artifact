@@ -1,4 +1,4 @@
-const e={config:{},runner:{},commands:["stuck-finder:find"],instructions:[`
+const e={config:{},runner:"runner-chat",commands:["stuck-finder:find"],instructions:[`
 # Curtains Bot
 
 ## Your Purpose
