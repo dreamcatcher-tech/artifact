@@ -1,1 +1,0 @@
-const o=()=>globalThis["@@io-worker-hooks"],a=(...s)=>o().actions(...s),i=(...s)=>o().spawns(...s),t=(...s)=>o().writeJS(...s),n=(...s)=>o().readJS(...s),e=(...s)=>o().isFile(...s);export{a,e as i,n as r,i as s,t as w};

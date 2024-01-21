@@ -1,4 +1,6 @@
-const e={config:{},runner:"runner-chat",commands:["stuck-finder:find"],instructions:[`
+const e={config:{},runner:"runner-chat",commands:[],requirements:[`
+We have been configured to run as a salesperson kiosk to sell curtains
+`],instructions:[`
 # Curtains Bot
 
 ## Your Purpose
