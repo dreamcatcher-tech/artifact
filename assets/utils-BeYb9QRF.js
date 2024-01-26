@@ -1,4 +1,4 @@
-import{D as n}from"./index-lK83-PcX.js";const o=n("AI:fetch"),s={delay:{description:`Delays the execution of the next command by the specified number of milliseconds and then returns the current date and time in the format used by the system locale.  For example the following function input parameters:
+import{D as n}from"./index-gw5s2-SM.js";const o=n("AI:fetch"),s={delay:{description:`Delays the execution of the next command by the specified number of milliseconds and then returns the current date and time in the format used by the system locale.  For example the following function input parameters:
     
       const milliseconds = 1000
 
