@@ -1,7 +1,0 @@
-import{D as p,a as g,b as u,_ as c,c as s,s as l}from"./index-OQoS8HC7.js";const a=p("AI:engage-help"),o={description:"engage the help",type:"object",additionalProperties:!1,required:["help","text"],properties:{help:{description:"the name of the help",type:"string"},text:{description:"the text to pass to the help runner",type:"string"}}},h={engage:o,engageInBand:o},_={engageInBand:async({help:e,text:r})=>{a("engage:",e);const{load:n}=await g("load-help"),t=await n({help:e});u(typeof t.runner=="string",`no runner: ${t.runner}`),a("found runner:",t.runner);const{default:i}=await c(Object.assign({"../runners/runner-chat.js":()=>s(()=>import("./runner-chat-otQk9aJm.js"),__vite__mapDeps([0,1,2])),"../runners/runner-injector.js":()=>s(()=>import("./runner-injector-1DMaLjSH.js"),__vite__mapDeps([3,1,2,0]))}),`../runners/${t.runner}.js`);return await i({help:t,text:r})},engage:async({help:e,text:r})=>{a("engage:",e);const{engageInBand:n}=await l("engage-help");return await n({help:e,text:r})},continue:async({help:e,text:r,commit:n})=>{a("continue:",e,n)}};export{h as api,_ as functions};
-function __vite__mapDeps(indexes) {
-  if (!__vite__mapDeps.viteFileDeps) {
-    __vite__mapDeps.viteFileDeps = ["assets/runner-chat-otQk9aJm.js","assets/index-OQoS8HC7.js","assets/index-fD6NxQi6.css","assets/runner-injector-1DMaLjSH.js"]
-  }
-  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
-}
