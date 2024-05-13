@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715595525338,
+  "lastUpdate": 1715639592922,
   "repoUrl": "https://github.com/dreamcatcher-tech/artifact",
   "entries": {
     "Interpulse Benchmark": [
@@ -76,6 +76,51 @@ window.BENCHMARK_DATA = {
             "range": "±8.89%",
             "unit": "ops/sec",
             "extra": "24 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "69952973+inverted-capital@users.noreply.github.com",
+            "name": "inverted-capital",
+            "username": "inverted-capital"
+          },
+          "committer": {
+            "email": "69952973+inverted-capital@users.noreply.github.com",
+            "name": "inverted-capital",
+            "username": "inverted-capital"
+          },
+          "distinct": true,
+          "id": "00911e2040031e7070d1c0190a235d0a89778856",
+          "message": "upgrade to gpt-4o",
+          "timestamp": "2024-05-14T10:32:10+12:00",
+          "tree_id": "37f69d6e5fd2c07f8bd9654af36221a739df9baf",
+          "url": "https://github.com/dreamcatcher-tech/artifact/commit/00911e2040031e7070d1c0190a235d0a89778856"
+        },
+        "date": 1715639592294,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "boot",
+            "value": 0.41,
+            "range": "±6.36%",
+            "unit": "ops/sec",
+            "extra": "7 samples"
+          },
+          {
+            "name": "cold ping",
+            "value": 1.03,
+            "range": "±7.65%",
+            "unit": "ops/sec",
+            "extra": "9 samples"
+          },
+          {
+            "name": "hot ping",
+            "value": 3.89,
+            "range": "±10.70%",
+            "unit": "ops/sec",
+            "extra": "23 samples"
           }
         ]
       }
