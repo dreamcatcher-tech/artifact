@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715639654180,
+  "lastUpdate": 1715644131718,
   "repoUrl": "https://github.com/dreamcatcher-tech/artifact",
   "entries": {
     "Interpulse Benchmark": [
@@ -164,6 +164,51 @@ window.BENCHMARK_DATA = {
             "name": "hot ping",
             "value": 4.1,
             "range": "±8.69%",
+            "unit": "ops/sec",
+            "extra": "25 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "69952973+inverted-capital@users.noreply.github.com",
+            "name": "inverted-capital",
+            "username": "inverted-capital"
+          },
+          "committer": {
+            "email": "69952973+inverted-capital@users.noreply.github.com",
+            "name": "inverted-capital",
+            "username": "inverted-capital"
+          },
+          "distinct": true,
+          "id": "1faea10ccafb8c5553fcb92db94ac491deea03ed",
+          "message": "Refactor to provide aesKey externally",
+          "timestamp": "2024-05-14T11:35:31+12:00",
+          "tree_id": "75bafce7345eb9476be3e06de21ab1bda29652f0",
+          "url": "https://github.com/dreamcatcher-tech/artifact/commit/1faea10ccafb8c5553fcb92db94ac491deea03ed"
+        },
+        "date": 1715644131144,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "boot",
+            "value": 0.37,
+            "range": "±4.80%",
+            "unit": "ops/sec",
+            "extra": "6 samples"
+          },
+          {
+            "name": "cold ping",
+            "value": 1,
+            "range": "±8.34%",
+            "unit": "ops/sec",
+            "extra": "10 samples"
+          },
+          {
+            "name": "hot ping",
+            "value": 4.18,
+            "range": "±10.06%",
             "unit": "ops/sec",
             "extra": "25 samples"
           }
