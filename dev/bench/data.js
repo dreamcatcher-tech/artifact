@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715648659946,
+  "lastUpdate": 1715652202372,
   "repoUrl": "https://github.com/dreamcatcher-tech/artifact",
   "entries": {
     "Artifact Benchmarks": [
@@ -254,6 +254,51 @@ window.BENCHMARK_DATA = {
             "name": "hot ping",
             "value": 4.15,
             "range": "±7.84%",
+            "unit": "ops/sec",
+            "extra": "24 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "69952973+inverted-capital@users.noreply.github.com",
+            "name": "inverted-capital",
+            "username": "inverted-capital"
+          },
+          "committer": {
+            "email": "69952973+inverted-capital@users.noreply.github.com",
+            "name": "inverted-capital",
+            "username": "inverted-capital"
+          },
+          "distinct": true,
+          "id": "8d7468c06c5a540cd269e4e3a5d308eceafb1824",
+          "message": "bench",
+          "timestamp": "2024-05-14T14:00:02+12:00",
+          "tree_id": "1090102dd5766e7d9dd523a3dcb5601d6f8d4e7b",
+          "url": "https://github.com/dreamcatcher-tech/artifact/commit/8d7468c06c5a540cd269e4e3a5d308eceafb1824"
+        },
+        "date": 1715652201614,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "boot",
+            "value": 0.37,
+            "range": "±6.08%",
+            "unit": "ops/sec",
+            "extra": "6 samples"
+          },
+          {
+            "name": "cold ping",
+            "value": 1.07,
+            "range": "±10.16%",
+            "unit": "ops/sec",
+            "extra": "10 samples"
+          },
+          {
+            "name": "hot ping",
+            "value": 4.06,
+            "range": "±7.61%",
             "unit": "ops/sec",
             "extra": "24 samples"
           }
