@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715662384174,
+  "lastUpdate": 1715749829376,
   "repoUrl": "https://github.com/dreamcatcher-tech/artifact",
   "entries": {
     "Artifact Benchmarks": [
@@ -374,6 +374,93 @@ window.BENCHMARK_DATA = {
             "range": "±11.69%",
             "unit": "ops/sec",
             "extra": "12 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "69952973+inverted-capital@users.noreply.github.com",
+            "name": "inverted-capital",
+            "username": "inverted-capital"
+          },
+          "committer": {
+            "email": "69952973+inverted-capital@users.noreply.github.com",
+            "name": "inverted-capital",
+            "username": "inverted-capital"
+          },
+          "distinct": true,
+          "id": "03e8742ba4f22a7706916e8384a29456187bbbba",
+          "message": "Implement crude DNS\ninit HAL in server\nAdd provisioning in all cradleMakers",
+          "timestamp": "2024-05-15T17:06:22+12:00",
+          "tree_id": "f2f075cbdf381b6f78fd408ae27966997e920d42",
+          "url": "https://github.com/dreamcatcher-tech/artifact/commit/03e8742ba4f22a7706916e8384a29456187bbbba"
+        },
+        "date": 1715749828764,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "engine cold start",
+            "value": 7.77,
+            "range": "±9.89%",
+            "unit": "ops/sec",
+            "extra": "30 samples"
+          },
+          {
+            "name": "machine root session",
+            "value": 0.84,
+            "range": "±7.28%",
+            "unit": "ops/sec",
+            "extra": "9 samples"
+          },
+          {
+            "name": "machine reload",
+            "value": 5.55,
+            "range": "±203.16%",
+            "unit": "ops/sec",
+            "extra": "8 samples"
+          },
+          {
+            "name": "boot",
+            "value": 0.34,
+            "range": "±55.10%",
+            "unit": "ops/sec",
+            "extra": "6 samples"
+          },
+          {
+            "name": "session start",
+            "value": 1.03,
+            "range": "±7.00%",
+            "unit": "ops/sec",
+            "extra": "10 samples"
+          },
+          {
+            "name": "session reload",
+            "value": 21992,
+            "range": "±1.14%",
+            "unit": "ops/sec",
+            "extra": "38 samples"
+          },
+          {
+            "name": "cold ping",
+            "value": 0.33,
+            "range": "±4.57%",
+            "unit": "ops/sec",
+            "extra": "6 samples"
+          },
+          {
+            "name": "hot ping",
+            "value": 1.21,
+            "range": "±11.56%",
+            "unit": "ops/sec",
+            "extra": "11 samples"
+          },
+          {
+            "name": "install",
+            "value": 0.6,
+            "range": "±4.81%",
+            "unit": "ops/sec",
+            "extra": "7 samples"
           }
         ]
       }
