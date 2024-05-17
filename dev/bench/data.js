@@ -435,13 +435,6 @@ window.BENCHMARK_DATA = {
             "extra": "10 samples"
           },
           {
-            "name": "session reload",
-            "value": 21992,
-            "range": "±1.14%",
-            "unit": "ops/sec",
-            "extra": "38 samples"
-          },
-          {
             "name": "cold ping",
             "value": 0.33,
             "range": "±4.57%",
@@ -520,13 +513,6 @@ window.BENCHMARK_DATA = {
             "range": "±7.24%",
             "unit": "ops/sec",
             "extra": "11 samples"
-          },
-          {
-            "name": "session reload",
-            "value": 21811,
-            "range": "±0.73%",
-            "unit": "ops/sec",
-            "extra": "45 samples"
           },
           {
             "name": "cold ping",
