@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716596594094,
+  "lastUpdate": 1716628453475,
   "repoUrl": "https://github.com/dreamcatcher-tech/artifact",
   "entries": {
     "Artifact Benchmarks": [
@@ -2361,6 +2361,93 @@ window.BENCHMARK_DATA = {
             "range": "±10.58%",
             "unit": "ops/sec",
             "extra": "14 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "69952973+inverted-capital@users.noreply.github.com",
+            "name": "inverted-capital",
+            "username": "inverted-capital"
+          },
+          "committer": {
+            "email": "69952973+inverted-capital@users.noreply.github.com",
+            "name": "inverted-capital",
+            "username": "inverted-capital"
+          },
+          "distinct": true,
+          "id": "f8e1d3b1053281a3da47716d0c5c51b2fc1bd08d",
+          "message": "provisioning",
+          "timestamp": "2024-05-25T21:09:10+12:00",
+          "tree_id": "c6abea7b53cf663a66ee2591c708e3aa6e21bd4e",
+          "url": "https://github.com/dreamcatcher-tech/artifact/commit/f8e1d3b1053281a3da47716d0c5c51b2fc1bd08d"
+        },
+        "date": 1716628452206,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "engine cold start",
+            "value": 0.64,
+            "range": "±11.53%",
+            "unit": "ops/sec",
+            "extra": "7 samples"
+          },
+          {
+            "name": "machine root session",
+            "value": 0.54,
+            "range": "±9.08%",
+            "unit": "ops/sec",
+            "extra": "7 samples"
+          },
+          {
+            "name": "machine reload",
+            "value": 22.86,
+            "range": "±189.00%",
+            "unit": "ops/sec",
+            "extra": "44 samples"
+          },
+          {
+            "name": "boot",
+            "value": 0.25,
+            "range": "±6.88%",
+            "unit": "ops/sec",
+            "extra": "6 samples"
+          },
+          {
+            "name": "session start",
+            "value": 1.45,
+            "range": "±11.48%",
+            "unit": "ops/sec",
+            "extra": "11 samples"
+          },
+          {
+            "name": "session reload",
+            "value": 743,
+            "range": "±6.40%",
+            "unit": "ops/sec",
+            "extra": "31 samples"
+          },
+          {
+            "name": "cold ping",
+            "value": 1.01,
+            "range": "±6.37%",
+            "unit": "ops/sec",
+            "extra": "10 samples"
+          },
+          {
+            "name": "hot ping",
+            "value": 3.92,
+            "range": "±9.30%",
+            "unit": "ops/sec",
+            "extra": "23 samples"
+          },
+          {
+            "name": "install",
+            "value": 2.09,
+            "range": "±7.08%",
+            "unit": "ops/sec",
+            "extra": "15 samples"
           }
         ]
       }
