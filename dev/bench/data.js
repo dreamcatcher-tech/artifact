@@ -3583,7 +3583,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "Interpulse Benchmarks": [
+    "Legacy Interpulse Benchmarks (last run: 2024-01-01)": [
       {
         "commit": {
           "author": {
